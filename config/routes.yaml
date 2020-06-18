@@ -1,0 +1,11 @@
+index:
+   path: /write
+   controller: App\Controller\ReadWriteController::index
+
+importAction:
+   path: /import
+   controller: App\Controller\ReadWriteController::importAction
+
+linktest:
+   path: /link
+   controller: App\Controller\ReadWriteController::linktest
